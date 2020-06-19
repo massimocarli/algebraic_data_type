@@ -23,7 +23,7 @@ typealias NothingType<A> = Pair<A, Nothing>
 // Pair<A, Nothing> is equivalent to Pair<Nothing, A> because you cannot
 // have any value of both. Nothing kills the type!
 
-// Another curiose thing is that
+// Another curious thing is that
 // A + 1 = A + Unit = Either<A, Unit>
 // 1 + A = Unit + A = Either<Unit, A>
 // This means that the type Either<A, Unit> is a type which has all the
